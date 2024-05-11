@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #606c38;
+            background: linear-gradient(rgba(215, 151, 27, 0.68),rgba(207, 219, 32, 0.58));
+         
+        }
+      
+        .one{
+            height: 60vmin;
+            width: 60vmin;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2vmin;
+        }
+        .box{
+            height:18vmin;
+            width: 18vmin;
+            background: palegoldenrod;
+            font-size: 10vmin;
+            font-weight: bolder;
+            border-radius: 1rem;
+        }
+        p{
+            height: 2rem;
+            width: 18rem;
+            background: white;
+            padding-top: 10px;
+            border-radius: 1rem;
+            background: gray;
+            font-style: italic  ;
+            font-size: large;
+            font-weight: bold;
+        }
+        .hide{
+            display: none;
+        }
+        h2{
+          color: rgb(12, 10, 9);
+        }
+        .re,.re1{
+            width: 15rem;
+            height: 2rem;
+            font: bold;
+            border-radius: 1rem;
+            background: gray;
+            color: rgb(15, 11, 11);
+            font-weight: bolder;
+            font-size: large;
+        
+        }
+    </style>
+</head>
+<body>
+    <h2>Tic-Tac-Toe</h2>
+
+      <p>Waiting for winner...</p>
+      <div class="one">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+      <button class="re" style="margin-top: 1rem;">Reset</button>
+      <button class="re1" style="margin-top: 1rem;">New Game</button>
+      <script src="tic.js"></script>
+      
+</body>
+</html>
